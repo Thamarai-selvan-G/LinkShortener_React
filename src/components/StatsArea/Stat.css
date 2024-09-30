@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.statParent{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 75%);
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.convertArea{
+    position: absolute;
+    height: 25%;
+    width: 70%;
+    border-radius: 15px;
+    background-image: url(../../assets/bg-shorten-desktop.svg);
+    background-color: hsl(257, 27%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    top: -10%;
+    left: 15%;
+}
+.convertArea input{
+    width: 70%;
+    height: 30%;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+}
+.convertArea input:focus{
+    outline: 3px solid hsl(0, 87%, 67%);
+}
+.convertArea span{
+    height: 30%;
+    width: 17%;
+    border-radius: 8px;
+    border: none;
+    background-color:hsl(180, 66%, 49%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+.convertArea span:hover{
+    cursor: pointer;
+}
+.error{
+    position: absolute;
+    left: 4%;
+    top: 70%;
+    font-style: italic;
+    color: hsl(0, 87%, 67%);
+}
+.statArea{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: greenyellow;
+
+}
+.head{
+    width: 40%;
+    text-align: center;
+    background-color: rebeccapurple;
+}
