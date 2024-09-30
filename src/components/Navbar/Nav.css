@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navParent{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* background-color: yellow; */
+}
+.nav{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: sienna; */
+}
+.logo{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: red;
+}
+.menuBar{
+    width: 70% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menuBar span{
+    color:hsl(0, 0%, 75%);
+    font-size: 16px;
+    font-weight: 500;
+}
+.menuBar span:hover{
+    color: black;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.user{
+    width: 15%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user span{
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.user span:hover{
+    background-color:  hsl(180, 66%, 49%);
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.mobMenu{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+.mobMenu span{
+    color:hsl(0, 0%, 75%);
+    font-size: 25px;
+}
+.menuList{
+    height: 400px;
+    width: 90%;
+
+    top: 100%;
+    right:5%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    opacity: 0;
+    background-color: hsl(257, 27%, 26%) ;
+}
+.active{
+    opacity:1;
+}
+.list{
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: hsl(0, 0%, 75%) 1px solid;
+}
+.list span:hover{
+    cursor: pointer;
+    color: hsl(180, 66%, 49%);
+}
+.mobUser{
+    height: 30%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    /* background-color: red; */
+}
+.mobUser span{
+    width: 80%;
+    border-radius:50px;
+    cursor: pointer;
+    padding: 5px ;
+}
+.mobUser span:hover{
+    transition: 0.4s;
+    background-color: hsl(180, 66%, 49%);  
+}
+@media (max-width: 600px){
+   .nav{
+    display: none;
+   }
+   .mobMenu{
+    display: inline-flex;
+   }
+}
