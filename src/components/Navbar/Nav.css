@@ -11,7 +11,7 @@
     /* background-color: yellow; */
 }
 .nav{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    background-color: red;
+    /* background-color: red; */
 }
 .menuBar{
     width: 70% ;
@@ -44,16 +44,16 @@
 }
 .user{
     width: 15%;
-    /* background-color: yellow; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* background-color: yellow; */
 }
 .user span{
-    padding: 10px 15px;
+    padding: 8px 20px;
     font-size: 18px;
     font-weight: 500;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .user span:hover{
     background-color:  hsl(180, 66%, 49%);
