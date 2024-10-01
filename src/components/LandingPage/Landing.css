@@ -53,6 +53,8 @@
 }
 .heroContent span:hover{
     cursor: pointer;
+    transition: 0.4s;
+    background-color: #60DCDC;
 }
 
 @media (max-width: 600px){
