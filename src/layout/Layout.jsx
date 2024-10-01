@@ -10,7 +10,7 @@ const Layout = () => {
         <Nav/>
         <Landing/>
         <Stats/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
